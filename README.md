@@ -1,6 +1,8 @@
 # TOC Project 2017
 
-A telegram bot based on a finite state machine
+A telegram bot based on a finite state machine.
+
+
 In this final project, I can communicate with my telegram chatbot. 
 
 ## Setup
