@@ -1,9 +1,8 @@
-<<<<<<< HEAD
 # TOC Project 2017
 
-Template Code for TOC Project 2017
-
 A telegram bot based on a finite state machine
+
+In this final project, I can communicate with my telegram bot. 
 
 ## Setup
 
@@ -50,16 +49,39 @@ The initial state is set to `user`.
 
 Every time `user` state is triggered to `advance` to another state, it will `go_back` to `user` state after the bot replies corresponding message.
 
-* user
-	* Input: "go to state1"
-		* Reply: "I'm entering state1"
+In this project, the usage of my bot is to list hotels in Tainan, movie theater timetable and Tainan one day tour.
 
-	* Input: "go to state2"
-		* Reply: "I'm entering state2"
+## Descriptions
+First, I need to choose one of three option to ask my bot.
+My option:
+1. Hotels
+2. Movie theater
+3. Tainan sights
 
+After the bot reply my needs, you can ask it further questions related to the option.
+
+There, I described the scheme:
+1. Hotels:
+    a. Top 5 review
+        (1.) price
+        (2.) location
+    b. Top 5 price
+        (1.) review
+        (2.) location
+    c. Top 5 near ncku 
+        (1.) review
+        (2.) price
+
+2. Movie theater
+    a. Guopin
+        - Now trending 
+    b. Viewshow
+        - Now trending
+
+3. Tainan Sights
+    -One day tour
+        * Dine
 
 ## Author
-[Lee-W](https://github.com/Lee-W)
-=======
-# TOC-Project-2017
->>>>>>> 955cae46aa605ee261b7bc3c96a165a46b072266
+[Angelina Anggara](https://github.com/angelinaanggara1996)
+
