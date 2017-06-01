@@ -1,8 +1,7 @@
 # TOC Project 2017
 
 A telegram bot based on a finite state machine
-
-In this final project, I can communicate with my telegram bot. 
+In this final project, I can communicate with my telegram chatbot. 
 
 ## Setup
 
@@ -35,7 +34,7 @@ After that, `ngrok` would generate a https URL.
 
 You should set `WEBHOOK_URL` (in app.py) to `your-https-URL/hook`.
 
-#### Run the sever
+#### Run my chatbot
 
 ```sh
 python3 app.py
@@ -49,37 +48,39 @@ The initial state is set to `user`.
 
 Every time `user` state is triggered to `advance` to another state, it will `go_back` to `user` state after the bot replies corresponding message.
 
-In this project, the usage of my bot is to list hotels in Tainan, movie theater timetable and Tainan one day tour.
+In this project, there are there usage of my chatbot: To list hotels in Tainan, movie theater timetable and Tainan one day tour.
 
 ## Descriptions
-First, I need to choose one of three option to ask my bot.
+First, I need to choose one of three option to ask my chatbot.
+
 My option:
-1. Hotels
-2. Movie theater
-3. Tainan sights
+1. `Hotels`
+2. `Movie theater`
+3. `Tainan sights`
 
 After the bot reply my needs, you can ask it further questions related to the option.
 
 There, I described the scheme:
-1. Hotels:
-    a. Top 5 review
-        (1.) price
-        (2.) location
-    b. Top 5 price
-        (1.) review
-        (2.) location
-    c. Top 5 near ncku 
-        (1.) review
-        (2.) price
+1. **Hotels**
+    1. `Top 5 review`
+        * price
+        * location
+    2. `Top 5 price`
+        * review
+        * location
 
-2. Movie theater
-    a. Guopin
-        - Now trending 
-    b. Viewshow
-        - Now trending
+    3. `Top 5 near ncku`
+        * review
+        * price
 
-3. Tainan Sights
-    -One day tour
+2. **Movie theater**
+    1. `Guopin`
+        * Now trending 
+    2. `Viewshow`
+        * Now trending
+
+3. **Tainan Sights**
+    * `One day tour`
         * Dine
 
 ## Author
