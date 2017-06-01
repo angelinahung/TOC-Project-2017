@@ -53,14 +53,14 @@ Every time `user` state is triggered to `advance` to another state, it will `go_
 In this project, there are there usage of my chatbot: To list hotels in Tainan, movie theater timetable and Tainan one day tour.
 
 ## Descriptions
-First, I need to choose one of three option to ask my chatbot.
+First, I need to choose one of three options to ask my chatbot.
 
-My option:
+My options:
 1. `Hotels`
 2. `Movie theater`
 3. `Tainan sights`
 
-After the chatbot reply my messages, I can ask further questions related to the option.
+After the chatbot reply the message, you can ask next further questions related to your option.
 
 Here, I described the input scheme:
 1. **Hotels**
@@ -85,9 +85,9 @@ Here, I described the input scheme:
     * `One day tour`
         * Dine
 
-And the chatbot will reply the answer of the above input strings.
+And the chatbot will reply the answer of the above input strings one by one.
 
-    *(P.S. In there, It's not efficient to write it all the answer)*
+    *(P.S. It's not efficient to write it all the answer here)*
 
 ## Author
 [Angelina Anggara](https://github.com/angelinaanggara1996)
