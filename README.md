@@ -87,7 +87,7 @@ Here, I described the input scheme:
 
 And the chatbot will reply the answer of the above input strings.
 
-    *(P.S. Here, I'm not efficient to write it all the answer)*
+    *(P.S. In there, It's not efficient to write it all the answer)*
 
 ## Author
 [Angelina Anggara](https://github.com/angelinaanggara1996)
