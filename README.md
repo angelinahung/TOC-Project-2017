@@ -62,7 +62,7 @@ My option:
 
 After the chatbot reply my messages, I can ask further questions related to the option.
 
-There, I described the scheme:
+Here, I described the input scheme:
 1. **Hotels**
     1. `Top 5 review`
         * price
@@ -84,6 +84,10 @@ There, I described the scheme:
 3. **Tainan Sights**
     * `One day tour`
         * Dine
+
+And the chatbot will reply the answer of the above input strings.
+
+    *(P.S. Here, I'm not efficient to write it all the answer)*
 
 ## Author
 [Angelina Anggara](https://github.com/angelinaanggara1996)
