@@ -58,7 +58,7 @@ My option:
 2. `Movie theater`
 3. `Tainan sights`
 
-After the bot reply my needs, you can ask it further questions related to the option.
+After the chatbot reply my messages, I can ask further questions related to the option.
 
 There, I described the scheme:
 1. **Hotels**
